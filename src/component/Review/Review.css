@@ -1,0 +1,102 @@
+.review{
+    padding: 50px 0;
+    background: #070711;
+}
+.review-left-caption h1 {
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+}
+.review-caption {
+    display: flex;
+    justify-content: space-between;
+    color: #fafafa;
+    position: relative;
+}
+.user-country-flag-and-user-introduce img{
+    height: 15px;
+}
+.people-img img {
+    width: 48px!important;
+    float: left;
+    margin-right: 17px !important;
+    min-height: 100%!important;
+}
+.flex-items {
+    display: flex;
+}
+.location span {
+    font-size: 8px;
+    color: goldenrod;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 8px;
+    position: relative;
+    bottom: 1px;
+}
+.user-name h6 {
+    color: #fafafa;
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    opacity: 0.7;
+    padding-bottom: 3px;
+}
+
+.main-card {
+    padding-left: 23px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    border: 1px solid gold;
+    border-radius: 18px;
+    background: #070711!important;
+    box-shadow: 9px -8px 0px #387ca2;
+}
+.post p {
+    color: #fafafa;
+    font-size: 14px;
+    opacity: 0.6;
+    padding-right: 3px;
+}
+
+.user-country-flag-and-user-introduce.d-flex.mt-3 {
+    width: 70%;
+    position: relative;
+    bottom: 22px;
+}
+.user-name h6 {
+    color: #fafafa;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    opacity: 0.7;
+}
+.review-right-caption {
+    display: flex;
+}
+span.opacity-need {
+    opacity: 0.5;
+}
+.arrow-location ul {
+    list-style: none;
+}
+.arrow-location ul li {
+    display: inline-block;
+}
+.arrow-location ul li span {
+    display: inline-block;
+    padding-left: 18px;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0.4;
+}
+.review-left-caption h1::before {
+    content: "";
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 40%;
+    height: 9%;
+    background: #2270cc;
+    border-radius: 10px;
+}
