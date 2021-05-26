@@ -37,7 +37,7 @@ const SHowPeople = () => {
     <h5 class="card-title">Benny Deyal</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="#show">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
+            <a href="#logo">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
@@ -58,7 +58,7 @@ const SHowPeople = () => {
     <h5 class="card-title">Vijay Yesudas</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
+            <a href="#logo">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
@@ -78,7 +78,7 @@ const SHowPeople = () => {
     <h5 class="card-title">Andrea Jeremiah</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
+            <a href="#logo">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
@@ -98,7 +98,7 @@ const SHowPeople = () => {
     <h5 class="card-title">Shilpa Rao</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
+            <a href="#logo">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
