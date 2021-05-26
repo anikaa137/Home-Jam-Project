@@ -8,7 +8,7 @@ import { faArrowRight, faVrCardboard } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SHowPeople = () => {
-   
+
     return (
         <div className='card-background'>
         <div className="container">
@@ -23,12 +23,12 @@ const SHowPeople = () => {
             </div>
             <div className="row ">
             </div>
-            
-                
 
-                
+
+
+
             <div className="col-lg-3 mt-5">
-            
+
                     <div className="people-card">
                     <div class="card" >
   <img src={image1} class="card-img-top" alt="#"/>
@@ -37,19 +37,19 @@ const SHowPeople = () => {
     <h5 class="card-title">Benny Deyal</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a> 
+            <a href="#show">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
         </div>
         </div>
- 
+
   </div>
 </div>
                     </div>
                 </div>
             <div className="col-lg-3 mt-5">
-            
+
                     <div className="people-card">
                     <div class="card" >
   <img src={image2} class="card-img-top" alt="#"/>
@@ -58,7 +58,7 @@ const SHowPeople = () => {
     <h5 class="card-title">Vijay Yesudas</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a> 
+            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
@@ -69,7 +69,7 @@ const SHowPeople = () => {
                     </div>
                 </div>
             <div className="col-lg-3 mt-5">
-            
+
                     <div className="people-card">
                     <div class="card" >
   <img src={image3} class="card-img-top" alt="#"/>
@@ -78,7 +78,7 @@ const SHowPeople = () => {
     <h5 class="card-title">Andrea Jeremiah</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a> 
+            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
@@ -89,7 +89,7 @@ const SHowPeople = () => {
                     </div>
                 </div>
             <div className="col-lg-3 mt-5">
-            
+
                     <div className="people-card">
                     <div class="card" >
   <img src={image4} class="card-img-top" alt="#"/>
@@ -98,7 +98,7 @@ const SHowPeople = () => {
     <h5 class="card-title">Shilpa Rao</h5>
     <div className="need-space">
         <div className="more-info">
-            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a> 
+            <a href="">More Info <span className='right-arrow'><FontAwesomeIcon icon={faArrowRight} /></span></a>
         </div>
         <div className="sticker">
             <span><FontAwesomeIcon icon={faVrCardboard} /></span>
@@ -111,8 +111,8 @@ const SHowPeople = () => {
             </div>
             </div>
         </div>
-            
-        
+
+
     );
 };
 
