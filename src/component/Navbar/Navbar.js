@@ -13,7 +13,7 @@ const Navbar = () => {
 
 <nav class='navbar navbar-expand-lg navbar-light sticky '>
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="#logo">
         <span className='mr-4'>
           <img src={img} alt="" />
         </span>
